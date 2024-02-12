@@ -1,0 +1,10 @@
+.font-size{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.p-font{
+    font-size: .8rem;
+}
+.padd{
+    padding: 50px 0px !important;
+}
