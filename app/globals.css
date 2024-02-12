@@ -11,10 +11,52 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
- 
+.ant-collapse-header .ant-collapse-arrow svg{
+  color: white !important;
+  margin-top: 2.2rem !important;
+}
+ .bg-rad{
+  background: radial-gradient(#03646E, #023E7E);
+  padding: 80px 0px;
+  border-radius: .5rem;
+  width:75rem;
+ }
+ .foot-pad{
+  padding: 80px 0px;
+  width:80rem;
+ }
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+.collap{
+  width: 60rem;
+}
+@media(max-width: 1024px){
+  .collap{
+    width: 40rem;
+  }
+  .bg-rad{
+    background: radial-gradient(#03646E, #023E7E);
+    padding: 80px 0px;
+    border-radius: .5rem;
+    width:60rem;
+   }
+}
+@media(max-width: 768px){
+  .collap{
+    width: 40rem;
+  }
+  .bg-rad{
+    background: radial-gradient(#03646E, #023E7E);
+    padding: 80px 0px;
+    border-radius: .5rem;
+    width:100%;
+   }
+}
+@media(max-width: 425px){
+  .collap{
+    width: 100%;
   }
 }
