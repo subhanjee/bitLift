@@ -18,31 +18,28 @@
   border-radius: 0.5rem;
   width: 28rem;
 }
-.med-scr{
-width: 40rem;
-height: 32rem;
+.med-scr {
+  width: 40rem;
+  height: 32rem;
 }
-.mr-top{
-  margin-top: 8rem;
+.mr-top {
+  margin-top: 6rem;
 }
-@media(max-width: 1024px){
+@media (max-width: 1024px) {
   .bodr {
     padding: 32px;
     box-shadow: 0 0 1px 1px #353535;
     border-radius: 0.5rem;
     width: 20rem;
-    
   }
-  .med-scr{
+  .med-scr {
     width: 30rem;
     height: 26rem;
-    
-   
-    }
-    .font-dive {
-      font-size: .8rem;
-    }
-    .mr-top{
-      margin-top: 2rem;
-    }
+  }
+  .font-dive {
+    font-size: 0.8rem;
+  }
+  .mr-top {
+    margin-top: 2rem;
+  }
 }

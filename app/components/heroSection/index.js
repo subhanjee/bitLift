@@ -6,24 +6,24 @@ import LogoTwo from "../images/iconoir_telegram.png";
 import LogoThree from "../images/mingcute_discord-line.png";
 import Bulb from "../images/Vector (2).png";
 import bigBulb from "../images/Vector (3).png";
+import main from "../images/Main.png";
 import Image from "next/image";
 import Navbar from "../navbar";
 function HeroSection() {
   const text = ' "Build on Bitcoin," ';
-  
+
   return (
-    <>
+    <div className="pos-main">
       <Navbar />
-      <div className="flex justify-center items-center flex-col  ">
+      <div className="flex justify-center items-center flex-col  pading ">
         <h1 className="text-[#F5F5F5] font-size text-enter -mb-5 ">Launch</h1>
         <h1 className="text-[#F5F5F5] font-size text-enter">
           with <a className="text-[#00ACB6]">BitLift</a>
         </h1>
         <p className="text-center text-[#ECECFB] md:w-[30rem] w-full p-font">
           BitLift is a Bitcoin-centric launchpad, leveraging the robust BRC20
-          token standard. Embodying the ethos of {text} it serves
-          as a catalyst for advancing blockchain technology within the Bitcoin
-          ecosystem.
+          token standard. Embodying the ethos of {text} it serves as a catalyst
+          for advancing blockchain technology within the Bitcoin ecosystem.
         </p>
         <div className="mt-10 flex justify-evenly items-center w-[30rem]">
           <button className="rounded-3xl bg-[#00ACB6] text-center text-white px-4 py-2 p-font flex items-center">
@@ -40,10 +40,10 @@ function HeroSection() {
         <div>
           <Image src={Bulb} alt="" className=" pos-img" />
           <Image src={bigBulb} alt="" className=" pos-imgbig" />
-          <div className="layer"></div>
         </div>
       </div>
-    </>
+      <div className="layer"></div>
+    </div>
   );
 }
 

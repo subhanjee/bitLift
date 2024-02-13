@@ -7,8 +7,8 @@ import hero from "../images/div.Hero_gradientWrapper__W5Hg_ (1).png";
 function Participate() {
   return (
     <div className="flex justify-center items-center flex-col paddPart " >
-      <Image src={hero} alt="" className="hero-ab  "/>
-      <h1 className="text-center radial-text-gradient-01 font-size-part relative ">
+      <Image src={hero} alt="" className="hero-ab w-full "/>
+      <h1 className="text-center radial-text-gradient-01 font-size-part relative  ">
         How to participate?
       </h1>
       <div className="flex justify-evenly items-center mt-10 w-[33rem] relative">
@@ -22,7 +22,7 @@ function Participate() {
           Stake $LIFT
         </button>
       </div>
-      <div className="mr-top">
+      <div className="mr-top   ">
         <Row justify="center">
           <Col>
             <div className="flex justify-center items-center">
@@ -51,7 +51,7 @@ function Participate() {
               <Image
                 src={video}
                 alt=""
-                className="   -mt-9 med-scr"
+                className="-mt-9 med-scr"
               />
             </div>
           </Col>

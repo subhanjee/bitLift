@@ -10,7 +10,9 @@ import Supported from "./components/supported";
 export default function Home() {
   return (
     <div className="bg-black px-2">
+      <div className="pos-main">
       <HeroSection />
+      </div>
       <Idos />
       <Cards />
       <Supported />
