@@ -24,7 +24,7 @@
 }
 .layer {
   /* background-color: linear-gradient(#02486C 70% , #02686C 25%); */
-  height: 30rem;
+  height: 20rem;
   width: 100%;
   background-image: linear-gradient(
     180deg,

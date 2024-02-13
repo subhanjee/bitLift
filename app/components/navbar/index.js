@@ -44,7 +44,10 @@ function Navbar() {
   ];
   return (
     <div className="flex items-center justify-center   ">
-      <nav className="flex items-center justify-between flex-wrap container     p-6">
+      <nav
+        className="flex items-center justify-between flex-wrap container p-6 "
+        style={{ background: "transparent" }}
+      >
         <div className="flex items-center    ">
           <Image src={logo} alt="abc" />
         </div>
@@ -82,7 +85,7 @@ function Navbar() {
               >
                 Portfolio
               </a>
-              
+
               <Dropdown
                 menu={{
                   items,
@@ -91,10 +94,12 @@ function Navbar() {
               >
                 <Space>
                   Doc
-                  <DownOutlined style={{fontSize: ".7rem",marginLeft: ".5rem"}}/>
+                  <DownOutlined
+                    style={{ fontSize: ".7rem", marginLeft: ".5rem" }}
+                  />
                 </Space>
               </Dropdown>
-             
+
               <Dropdown
                 menu={{
                   items,
@@ -103,7 +108,9 @@ function Navbar() {
               >
                 <Space>
                   Social
-                  <DownOutlined style={{fontSize: ".7rem",marginLeft: ".5rem"}}/>
+                  <DownOutlined
+                    style={{ fontSize: ".7rem", marginLeft: ".5rem" }}
+                  />
                 </Space>
               </Dropdown>
 
@@ -115,10 +122,12 @@ function Navbar() {
               >
                 <Space>
                   $Lift
-                  <DownOutlined style={{fontSize: ".7rem",marginLeft: ".5rem"}}/>
+                  <DownOutlined
+                    style={{ fontSize: ".7rem", marginLeft: ".5rem" }}
+                  />
                 </Space>
               </Dropdown>
-               
+
               <a
                 href="#"
                 className="inline-block   justify-center items-center text-sm px-6 py-3 leading-none  bg-[#00ACB6] rounded-full text-white  mt-4 lg:mt-0 ml-4 mr-4"
@@ -129,7 +138,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      </div>
+    </div>
   );
 }
 

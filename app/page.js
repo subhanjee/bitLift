@@ -11,7 +11,6 @@ import Supported from "./components/supported";
 export default function Home() {
   return (
     <div className="bg-black px-2">
-      <Navbar />
       <HeroSection />
       <Idos />
       <Cards />
