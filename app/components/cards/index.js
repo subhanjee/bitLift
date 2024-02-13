@@ -117,13 +117,13 @@ const data1 = [
 function Cards() {
   return (
     <div>
-      <Row className="flex justify-center gap-[5rem] pb-4">
+      <Row className="flex justify-center gap-[1rem] pb-4">
         {data.map((item, index) => (
           <Card
             key={item.id}
             className={"w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3"}
             style={{
-              width: 360,
+              width: 300,
               background: "radial-gradient(#02656D, #024578)",
               color: "white",
               border: "1px solid #00ACB6", // Border color
@@ -137,7 +137,7 @@ function Cards() {
             }
           >
             <div className="flex justify-center items-center gap-4 mt-2">
-              <img alt="example" src={item.imagedown} />
+              <img className="w-[5rem] h-[5rem]" alt="example" src={item.imagedown} />
               <div className="block ">
                 <p className="text-[1.5rem] mb-2">{item.currency}</p>
                 <div className="flex ">
@@ -191,7 +191,7 @@ function Cards() {
             key={item.id}
             className={"w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3"}
             style={{
-              width: 360,
+              width: 300,
               background: "black",
               color: "white",
               border: "1px solid #00ACB6", // Border color
@@ -205,7 +205,7 @@ function Cards() {
             }
           >
             <div className="flex justify-center items-center gap-4 mt-2">
-              <img alt="example" src={item.imagedown} />
+              <img className="w-[5rem] h-[5rem]" alt="example" src={item.imagedown} />
               <div className="block ">
                 <p className="text-[1.5rem] mb-2">{item.currency}</p>
                 <div className="flex ">
