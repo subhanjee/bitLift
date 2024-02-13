@@ -10,6 +10,7 @@ import Image from "next/image";
 import Navbar from "../navbar";
 function HeroSection() {
   const text = ' "Build on Bitcoin," ';
+  
   return (
     <>
       <Navbar />

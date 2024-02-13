@@ -1,0 +1,48 @@
+.hovr {
+  background: black !important;
+  color: white !important;
+  width: 22rem !important;
+}
+.hovr:hover {
+  background: radial-gradient(#02656d, #024578) !important;
+}
+.width-div {
+  width: 70rem !important;
+}
+.eth-img{
+    position: absolute;
+    right: 0;
+    margin-top: -3.5rem;
+    margin-right: .5rem;
+}
+@media (max-width: 1024px) {
+  .width-div {
+    width: 100% !important;
+    margin-left: 1rem;
+  }
+  .hovr {
+    background: black !important;
+    color: white !important;
+    width: 20rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .width-div {
+    width: 100%;
+  }
+  .hovr {
+    background: black !important;
+    color: white !important;
+    width: 22.5rem !important;
+  }
+}
+@media (max-width: 425px) {
+    .width-div {
+      width: 100%;
+    }
+    .hovr {
+      background: black !important;
+      color: white !important;
+      width: 24rem !important;
+    }
+  }

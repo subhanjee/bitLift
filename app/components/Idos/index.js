@@ -51,21 +51,20 @@ function Idos() {
         <p className="text-white text-center text-2xl pb-8">IDOs</p>
       </div>
       <div className="flex justify-center text-white pb-24">
-        <button className="flex justify-center items-center w-[8rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-4 mr-4 text-xs">
+        <button className="flex justify-center items-center w-[9rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-10 mr-8 text-xs">
           Live
         </button>
-        <button className="flex justify-center items-center w-[8rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-4 mr-4 text-xs">
+        <button className="flex justify-center items-center w-[9rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-10 mr-8 text-xs">
           Upcoming
         </button>
-        <button className="flex justify-center items-center w-[8rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-4 mr-4 text-xs">
+        <button className="flex justify-center items-center w-[9rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-10 mr-8 text-xs">
           Finished
         </button>
-
         <Dropdown
           menu={{
             items,
           }}
-          className="flex justify-center w-32 border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-4 mr-4"
+          className="flex justify-center w-36 border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-10 mr-8"
         >
           <Space className="p-1">
             Chains
@@ -74,12 +73,12 @@ function Idos() {
         </Dropdown>
 
         <Input
-          className="flex justify-center items-center  w-32 border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-4 mr-4"
+          className="flex justify-center items-center  w-34 border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-10 mr-8"
           placeholder="Search By Name"
           // onSearch={onSearch}
           style={{
             backgroundColor: "transparent", // Set background to transparent
-            width: 200,
+            width: 220,
             paddingRight: "30px", // Adjust the padding to accommodate the search icon
             textAlign: "right",
           }}
@@ -89,18 +88,6 @@ function Idos() {
             </Space>
           }
         />
-        {/* <Search
-          placeholder="Search By Name"
-          // onSearch={onSearch}
-          prefix={
-            <Space>
-              <SearchOutlined />
-            </Space>
-          }
-          style={{
-            width: 200,
-          }}
-        /> */}
       </div>
     </div>
   );
