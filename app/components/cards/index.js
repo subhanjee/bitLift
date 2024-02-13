@@ -123,7 +123,7 @@ function Cards() {
             key={item.id}
             className={"w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3"}
             style={{
-              width: 300,
+              width: 340,
               background: "radial-gradient(#02656D, #024578)",
               color: "white",
               border: "1px solid #00ACB6", // Border color
@@ -136,7 +136,7 @@ function Cards() {
               />
             }
           >
-            <div className="flex justify-center items-center gap-4 mt-2">
+            <div className="flex justify-center items-center gap-4 ">
               <img className="w-[5rem] h-[5rem]" alt="example" src={item.imagedown} />
               <div className="block ">
                 <p className="text-[1.5rem] mb-2">{item.currency}</p>
@@ -191,7 +191,7 @@ function Cards() {
             key={item.id}
             className={"w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3"}
             style={{
-              width: 300,
+              width: 340,
               background: "black",
               color: "white",
               border: "1px solid #00ACB6", // Border color
@@ -204,7 +204,7 @@ function Cards() {
               />
             }
           >
-            <div className="flex justify-center items-center gap-4 mt-2">
+            <div className="flex justify-center items-center gap-4 ">
               <img className="w-[5rem] h-[5rem]" alt="example" src={item.imagedown} />
               <div className="block ">
                 <p className="text-[1.5rem] mb-2">{item.currency}</p>
