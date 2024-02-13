@@ -73,7 +73,7 @@ function Footer() {
         </Row>
       </div>
       <hr className="border-[#BABCD2] w-full" />
-      <p className="text-center  text-[#BABCD2] mt-3 mb-20">
+      <p className="text-center  text-[#BABCD2] mt-4 mb-20">
         © 2024 BitLift.io || All rights reserved.
       </p>
     </div>

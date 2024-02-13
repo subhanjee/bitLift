@@ -4,11 +4,11 @@ function Launch() {
   return (
     <div className="flex justify-center items-center flex-col mt-5">
     <div className="bg-rad ">
-      <h1 className="text-white  text-[2.5rem] text-center">
+      <h1 className="radial-text-gradient-01 text-[3rem] text-center ">
         Launch with confidence <br />
         on Bitcoin Ecosystem
         <br />
-        using BitLift.
+        using BitLift. 
       </h1>
       <p className="text-[#BABCD2] text-center text-[.8rem] mt-2">
         Use BitLift to uplift your project. We support to launch

@@ -3,13 +3,15 @@ import "./index.css";
 import { Col, Row } from "antd";
 import Image from "next/image";
 import video from "../images/div.centered-container.png";
+import hero from "../images/div.Hero_gradientWrapper__W5Hg_ (1).png";
 function Participate() {
   return (
-    <div className="flex justify-center items-center flex-col paddPart">
-      <h1 className="text-center text-white font-size-part">
+    <div className="flex justify-center items-center flex-col paddPart " >
+      <Image src={hero} alt="" className="hero-ab  "/>
+      <h1 className="text-center radial-text-gradient-01 font-size-part relative ">
         How to participate?
       </h1>
-      <div className="flex justify-evenly items-center mt-10 w-[33rem]">
+      <div className="flex justify-evenly items-center mt-10 w-[33rem] relative">
         <button className="px-6 py-2 text-white border  rounded-full hover:border part-font ">
           Participate
         </button>
@@ -20,11 +22,11 @@ function Participate() {
           Stake $LIFT
         </button>
       </div>
-      <div className="mt-10">
+      <div className="mr-top">
         <Row justify="center">
           <Col>
             <div className="flex justify-center items-center">
-              <div className="bg-[#010314]  bodr mt-5 mb-5 w-[28rem]">
+              <div className="bg-[#010314]  bodr mt-5 mb-5  ">
                 <p className="text-[#BABCD2]  font-dive">
                   Dive into the future by taking part in your favorite project;
                   our step-by-step video guide simplifies the journey, preparing
@@ -49,7 +51,7 @@ function Participate() {
               <Image
                 src={video}
                 alt=""
-                className="w-[40rem] h-[32rem] -mt-9 med-scr"
+                className="   -mt-9 med-scr"
               />
             </div>
           </Col>

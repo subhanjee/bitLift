@@ -3,6 +3,13 @@
 @tailwind utilities;
 
  
+/* globals.css */
+/* globals.css */
+/* Import Nunito font from Google Fonts */
+ 
+/* Add the rest of your global styles here */
+
+/* Add the rest of your global styles here */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -18,13 +25,30 @@
  .bg-rad{
   background: radial-gradient(#03646E, #023E7E);
   padding: 80px 0px;
-  border-radius: .5rem;
+  border-radius: 1rem;
   width:75rem;
  }
  .foot-pad{
   padding: 80px 0px;
   width:75rem;
  }
+ .radial-text-gradient-01 {
+  background: radial-gradient(circle farthest-corner at center center, white 0%, #231421 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight:600;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.hero-ab{
+  position: absolute;
+  margin-top: -10rem;
+  width: 80rem;
+  height: 60rem;
+ 
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
