@@ -9,6 +9,7 @@ import bigBulb from "../images/Vector (3).png"
  
 import Image from "next/image";
 function HeroSection() {
+ 
   return (
     <div className="flex justify-center items-center flex-col padd">
       <h1 className="text-[#F5F5F5] font-size text-enter -mb-5 ">Launch</h1>
