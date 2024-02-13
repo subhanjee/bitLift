@@ -117,11 +117,11 @@ const data1 = [
 function Cards() {
   return (
     <div>
-      <Row className="flex justify-center gap-[5rem]">
-        {data.map((item,index) => (
+      <Row className="flex justify-center gap-[5rem] pb-4">
+        {data.map((item, index) => (
           <Card
             key={item.id}
-            className={`w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 ${index >= 3 ? 'hidden xl:block' : ''}`}
+            className={"w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3"}
             style={{
               width: 360,
               background: "radial-gradient(#02656D, #024578)",
@@ -186,10 +186,10 @@ function Cards() {
             </div>
           </Card>
         ))}
-        {data1.map((item,index) => (
+        {data1.map((item, index) => (
           <Card
             key={item.id}
-            className={`w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 ${index >= 3 ? 'hidden xl:block' : ''}`}
+            className={"w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3"}
             style={{
               width: 360,
               background: "black",
