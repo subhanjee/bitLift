@@ -10,7 +10,7 @@ import bigBulb from "../images/Vector (3).png"
 import Image from "next/image";
 function HeroSection() {
   return (
-    <div className="flex justify-center items-center flex-col padd">
+    <div className="flex justify-center items-center flex-col padd backgroundimage">
       <h1 className="text-[#F5F5F5] font-size text-enter -mb-5 ">Launch</h1>
       <h1 className="text-[#F5F5F5] font-size text-enter  ">
         with <a className="text-[#00ACB6]">BitLift</a>
@@ -34,8 +34,8 @@ function HeroSection() {
         <Image src={LogoThree} alt="" className="mr-1 w-6 h-6" />
       </div>
       <div>
-      <Image src={Bulb} alt="" className=" pos-img"/>
-      <Image src={bigBulb} alt="" className=" pos-imgbig"/>
+      {/* <Image src={Bulb} alt="" className=" pos-img"/>
+      <Image src={bigBulb} alt="" className=" pos-imgbig"/> */}
       <div className="layer"> 
       </div>
       </div>

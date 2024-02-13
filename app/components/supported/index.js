@@ -5,7 +5,9 @@ import { Col, Row } from "antd";
 function Supported() {
   return (
     <div>
-      <p className="text-white text-center text-[1.5rem] mt-10">Supported Chains</p>
+      <p className="text-white text-center text-[1.5rem] mt-10">
+        Supported Chains
+      </p>
       <div className="flex justify-center">
         {" "}
         <div className="border border-[#00ACB6] rounded-md mt-8 p-1 pl-14 pr-14 mb-8">
@@ -69,7 +71,7 @@ function Supported() {
         </p>
         <div className="flex justify-center">
           {" "}
-          <button className="flex justify-center items-center w-[10rem] h-[2rem] border rounded-md border-[#00ACB6] bg-[#00ACB6] hover:border-2  text-center lg:inline-flex lg:mt-0 text-white ml-4 mr-4 text-sm font-semibold ">
+          <button className="flex justify-center items-center w-[10rem] h-[2rem] border rounded-md border-[#00ACB6] bg-[#00ACB6] hover:border-2  text-center lg:inline-flex lg:mt-0 text-white ml-4 mr-4 text-sm font-semibold mb-[18rem]">
             Apply to launch
           </button>
         </div>
