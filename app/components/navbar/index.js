@@ -56,7 +56,7 @@ function Navbar() {
   return (
     <div className="flex items-center justify-center   ">
       <nav
-        className="flex items-center justify-between flex-wrap container p-6 "
+        className="flex items-center justify-between flex-wrap container p-6 relative z-50"
         style={{ background: "transparent" }}
       >
         <div className="flex items-center    ">
@@ -107,7 +107,7 @@ function Navbar() {
                 menu={{
                   items,
                 }}
-                className="flex justify-center relative hover:text-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  ml-4 mr-4"
+                className="flex justify-center hover:text-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  ml-4 mr-4"
               >
                 <Space>
                   Doc
@@ -121,7 +121,7 @@ function Navbar() {
                 menu={{
                   items,
                 }}
-                className="flex justify-center relative hover:text-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  ml-4 mr-4"
+                className="flex justify-center hover:text-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  ml-4 mr-4"
               >
                 <Space>
                   Social
@@ -135,7 +135,7 @@ function Navbar() {
                 menu={{
                   items,
                 }}
-                className="flex justify-center relative hover:text-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  ml-4 mr-4"
+                className="flex justify-center hover:text-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  ml-4 mr-4"
               >
                 <Space>
                   $Lift
@@ -147,7 +147,7 @@ function Navbar() {
 
               <a
                 href="#"
-                className="inline-block relative   justify-center items-center text-sm px-6 py-3 leading-none  bg-[#00ACB6] rounded-full text-white  mt-4 lg:mt-0 ml-4 mr-4"
+                className="inline-block   justify-center items-center text-sm px-6 py-3 leading-none  bg-[#00ACB6] rounded-full text-white  mt-4 lg:mt-0 ml-4 mr-4"
               >
                 Connect Wallet
               </a>
