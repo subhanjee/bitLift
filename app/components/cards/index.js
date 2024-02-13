@@ -130,7 +130,7 @@ function Cards() {
             }}
             cover={
               <img
-                className="h-[14.73rem] w-[26.1875rem] "
+                className="h-[12rem] w-[26.1875rem] "
                 alt="example"
                 src={item.image}
               />
@@ -198,7 +198,7 @@ function Cards() {
             }}
             cover={
               <img
-                className="h-[15rem] w-[25rem] p-[0.1rem]"
+                className="h-[12.5rem] w-[25rem] p-[0.1rem]"
                 alt="example"
                 src={item.image}
               />
