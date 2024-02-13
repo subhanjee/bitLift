@@ -12,7 +12,7 @@ function HeroSection() {
   return (
     <div className="flex justify-center items-center flex-col padd">
       <h1 className="text-[#F5F5F5] font-size text-enter -mb-5 ">Launch</h1>
-      <h1 className="text-[#F5F5F5] font-size text-enter  ">
+      <h1 className="text-[#F5F5F5] font-size text-enter">
         with <a className="text-[#00ACB6]">BitLift</a>
       </h1>
       <p className="text-center text-[#ECECFB] md:w-[30rem] w-full p-font">

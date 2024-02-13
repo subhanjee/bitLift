@@ -10,7 +10,7 @@ function Footer() {
           <Col>
             <div className="flex justify-center items-center flex-col">
               <Image src={footLogo} alt="" />
-              <p className="text-white text-[1.2rem] text-center font-bold">
+              <p className="radial-text-gradient-01 text-[2rem] text-center font-bold">
                 BitLift
               </p>
             </div>
@@ -72,7 +72,7 @@ function Footer() {
           </Col>
         </Row>
       </div>
-      <hr className="border-[#BABCD2] w-full" />
+      <hr className="border-[#BABCD2] foot-padline" />
       <p className="text-center  text-[#BABCD2] mt-4 mb-20">
         © 2024 BitLift.io || All rights reserved.
       </p>
