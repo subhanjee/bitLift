@@ -1,0 +1,21 @@
+.font-size-part {
+  font-size: 3rem;
+}
+.part-font{
+    font-size: .8rem;
+}
+.paddPart {
+  padding: 50px 0px !important;
+  width: 100%;
+  height: auto;
+}
+.font-dive{
+    font-size: 1rem;
+    
+}
+
+.bodr{
+    padding: 48px;
+    box-shadow:0 0 1px 1px  #353535;
+    border-radius: .5rem;
+}

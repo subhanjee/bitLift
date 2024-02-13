@@ -7,4 +7,42 @@
 }
 .padd{
     padding: 50px 0px !important;
+    width: 100%;
+    height: auto;
+ }
+.pos-img{
+    position: absolute;
+    margin-left: -30rem;
+    width: 15rem;
+    margin-top: -9rem;
+}
+.pos-imgbig{
+    position: absolute;
+    width: 28rem;
+    margin-top: -26rem;
+    margin-left: 10rem;
+}
+.layer{
+    /* background-color: linear-gradient(#02486C 70% , #02686C 25%); */
+    height: 30rem;
+    width: 100%;
+    background-image: linear-gradient(180deg,white 100%, #02486C 70% , #02686C 25%);
+}
+@media(max-width: 1024px){
+  
+    .pos-imgbig{
+        position: absolute;
+        width: 22rem;
+        margin-top: -26rem;
+        margin-left: 10rem;
+    }
+}
+@media(max-width: 768px){
+    .pos-img{
+         display: none !important;
+    }
+    .pos-imgbig{
+        display: none !important;
+
+    }
 }
