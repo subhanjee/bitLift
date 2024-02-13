@@ -83,7 +83,7 @@ const data1 = [
     presaleprice: "0.12$",
     listingtime: "5th Feb 11:30:00 UTC",
     launchprice: "0.22$",
-    buttontext: "Register",
+    buttontext: "Participate",
     currency: "Ethereum",
     liveorupcoming: "LIVE",
     publicorprivate: "Public",
@@ -240,7 +240,7 @@ function Cards() {
       <div className=" width-div">
         <Slider {...settings} className="text-white py-5 ">
           {data1.map((item, index) => (
-            <div className="flex flex-col ">
+            <div key={index} className="flex flex-col ">
               <Card
                 key={index}
                 className="w-full hovr mt-2 mb-10"
