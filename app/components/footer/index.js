@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="mt-15 flex justify-center items-center  ">
     <div className="foot-pad ">
-      <Row  justify="space-evenly">
+      <Row  justify="space-between">
         <Col>
           <div className="flex justify-center items-center flex-col">
             <Image src={footLogo} alt="" />

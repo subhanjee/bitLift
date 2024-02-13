@@ -23,7 +23,7 @@
  }
  .foot-pad{
   padding: 80px 0px;
-  width:80rem;
+  width:75rem;
  }
 @layer utilities {
   .text-balance {
@@ -42,6 +42,10 @@
     padding: 80px 0px;
     border-radius: .5rem;
     width:60rem;
+   }
+   .foot-pad{
+    padding: 80px 0px;
+    width: 100%;
    }
 }
 @media(max-width: 768px){
