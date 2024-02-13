@@ -242,7 +242,7 @@ function Cards() {
           {data1.map((item, index) => (
             <div className="flex flex-col ">
               <Card
-                key={item.id}
+                key={index}
                 className="w-full hovr mt-2 mb-10"
                 style={{
                   color: "white",
@@ -307,7 +307,7 @@ function Cards() {
                 </div>
               </Card>
               <Card
-                key={item.id}
+                key={index}
                 className="w-full hovr mt-[5rem] mb-2"
                 style={{
                   color: "white",
