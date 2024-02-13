@@ -14,12 +14,14 @@ function Launch() {
         Use BitLift to uplift your project. We support to launch
         <br /> projects on Bitcoin Ecosystem.
       </p>
-      <div className="flex justify-evenly items-center mt-8">
-      
+      <div className="flex justify-center items-center ">
+      <div className="flex justify-evenly items-center mt-8 w-[20rem]">
       <button className="px-5 py-2 bg-white rounded-full text-[.8rem] text-black">Apply to launch</button>
       <button className="px-5 py-2 hover:bg-white rounded-full text-[.8rem]  text-white hover:text-black">Try for free</button>
       </div>
+      </div>
     </div>
+    
     </div>
   );
 }
