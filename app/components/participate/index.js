@@ -10,7 +10,7 @@ function Participate() {
       <Image src={hero} alt="" className="hero-ab w-full px-4 "/>
       <h1 className="text-center radial-text-gradient-01 font-size-part relative   ">
         How to participate? 
-      </h1>   
+      </h1>    
       <div className="flex justify-evenly items-center mt-10 w-[22rem] md:w-[33rem] relative">
         <button className="px-6 py-2 text-white border  rounded-full hover:border part-font ">
           Participate

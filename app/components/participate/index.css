@@ -73,12 +73,13 @@
   .font-dive {
     font-size: 0.8rem;
   }
-  .mr-top {
-    margin-top: 0rem;
+  .font-size-part {
+    font-size: 1.5rem;
+    margin-top: 8rem;
   }
   .hero-ab{
     position: absolute;
-    margin-top: -22rem;
+    margin-top: -15rem;
     width: 100%;
    height: 100vh;
   }

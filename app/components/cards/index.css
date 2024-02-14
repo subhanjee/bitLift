@@ -51,16 +51,16 @@
 }
 @media (max-width: 500px) {
     .width-div {
-      width: 22rem!important;
+      width: 21rem!important;
     }
     .hovr {
       background: radial-gradient(#02656d, #024578) !important;
       color: white !important;
-      width: 21.5rem !important;
+      width: 20rem !important;
     }
     .bg-custom-color{
       background: black !important;
       color: white !important;
-      width: 21.5rem !important;
+      width: 20rem !important;
     }
   }
