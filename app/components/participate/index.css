@@ -69,8 +69,6 @@
   }
 }
 @media (max-width: 500px) {
- 
- 
   .font-dive {
     font-size: 0.8rem;
   }
@@ -79,8 +77,12 @@
   }
   .hero-ab{
     position: absolute;
-    margin-top: -40rem;
+    margin-top: -4rem;
     width: 100%;
-   height: 350vh;
+   height: 200vh;
+  }
+  .med-scr {
+    width: 100%;
+    height: 100%;
   }
 }
