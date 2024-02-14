@@ -5,30 +5,35 @@
 .search-size {
   width: 15rem;
 }
-.div-ido{
+.div-ido {
   width: 75rem;
 }
-@media(max-width: 1024px){
+@media (max-width: 1400px) {
+  .mar-top {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 1024px) {
   .search-size {
     width: 12rem;
   }
-  .div-ido{
+  .div-ido {
     width: 62rem;
   }
 }
-@media(max-width: 768px){
+@media (max-width: 768px) {
   .search-size {
     width: 10rem;
   }
-  .div-ido{
+  .div-ido {
     width: 48rem;
   }
 }
-@media(max-width: 767px){
+@media (max-width: 767px) {
   .search-size {
     width: 12rem;
   }
-  .div-ido{
+  .div-ido {
     display: flex;
     justify-content: center;
     flex-direction: column;

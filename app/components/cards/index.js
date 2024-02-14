@@ -48,9 +48,10 @@ const settings = {
         backgroundColor: "transparent",
         borderRadius: "10px",
         padding: "10px",
+      
       }}
     >
-      <ul style={{ margin: "0px" }}> {dots} </ul>
+      <ul style={{ margin: "0px", }}> {dots} </ul>
     </div>
   ),
   customPaging: (i) => (
@@ -63,6 +64,7 @@ const settings = {
         border: "1px #00ACB6 solid",
         borderRadius: "50%",
         textAlign: "center",
+     
       }}
     >
       {i + 1}

@@ -46,7 +46,7 @@ function Idos() {
     },
   ];
   return (
-    <div className="mt-[5rem] md:mt-[10rem] flex  justify-center items-center flex-col">
+    <div className="mt-[5rem] md:mt-[10rem] mar-top flex  justify-center items-center flex-col">
       <div>
         <p className="text-white text-center text-2xl pb-8">IDOs</p>
       </div>

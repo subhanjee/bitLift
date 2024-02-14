@@ -75,13 +75,13 @@ const items = [
 function FAQ() {
   return (
     <div className="flex justify-center items-center flex-col  martop">
-      <h1 className="font-size-part text-white">Have a question?</h1>
+      <h1 className="font-size-part text-white text-center">Have a question?</h1>
       <h2 className=" text-[#4E616B] font-size-part ">FAQ</h2>
       <hr className="border-[white] collap mt-14" />
       <Collapse
         bordered={false}
         expandIconPosition="end"
-        accordion
+        accordion 
         items={items}
         className=" collap " 
       />

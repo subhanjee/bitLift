@@ -6,14 +6,12 @@ import LogoTwo from "../images/iconoir_telegram.png";
 import LogoThree from "../images/mingcute_discord-line.png";
 import Bulb from "../images/Vector (2).png";
 import bigBulb from "../images/Vector (3).png";
-import main from "../images/Main.png";
-import Image from "next/image";
-import Navbar from "../navbar";
-function HeroSection() {
+ import Image from "next/image";
+ function HeroSection() {
   const text = ' "Build on Bitcoin," ';
 
   return (
-    <div className="pos-main">
+    <div className="pos-main"> 
       <div className="flex justify-center items-center flex-col   topmar ">
         <h1 className="text-[#F5F5F5] font-size text-enter -mb-5 ">Launch</h1>
         <h1 className="text-[#F5F5F5] font-size text-enter">

@@ -11,7 +11,7 @@ function Supported() {
       <div className="flex justify-center">
         {" "}
         <div className="border border-[#00ACB6] rounded-md py-3 mt-8 p-1 pl-10 pr-10 mb-8 py-5">
-          {" "}
+          {" "} 
           <Row className="flex justify-center gap-[2rem]">
             <Col className="flex items-center justify-center w-[4rem] h-[4rem] bg-[#020415] rounded-full text-white">
               <img
