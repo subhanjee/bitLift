@@ -57,7 +57,7 @@ function Navbar() {
     <div className="flex items-center justify-center   ">
       <nav
         className="flex items-center justify-between flex-wrap container p-6 relative z-50"
-        style={{ background: "transparent" }}
+        style={{ backgroundColor: "transparent" }}
       >
         <div className="flex items-center    ">
           <Image src={logo} alt="abc" />
