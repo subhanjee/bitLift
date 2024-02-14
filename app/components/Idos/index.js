@@ -1,5 +1,5 @@
 import React from "react";
-import { Dropdown, Button, Space, Input } from "antd";
+import { Dropdown, Space, Input } from "antd";
 import { DownOutlined, SearchOutlined } from "@ant-design/icons";
 import "./index.css";
 
@@ -30,7 +30,7 @@ function Idos() {
         >
           Doc
         </a>
-      ),
+      ), 
     },
     {
       key: "3",
@@ -46,25 +46,25 @@ function Idos() {
     },
   ];
   return (
-    <div className="mt-[5rem] md:mt-[10rem] mar-top flex  justify-center items-center flex-col">
+    <div className="  mar-top flex  justify-center items-center flex-col">
       <div>
         <p className="text-white text-center text-2xl pb-8">IDOs</p>
       </div>
       <div className="intial-block div-ido md:flex justify-evenly items-center text-white pb-24">
-        <button className="flex justify-center items-center w-[9rem] h-[2rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white   text-xs">
+        <button className="flex justify-center items-center w-[9rem] h-[3rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white   text-lg">
           Live
         </button>
-        <button className="flex justify-center items-center w-[9rem] h-[2rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white   text-xs">
+        <button className="flex justify-center items-center w-[9rem] h-[3rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white   text-lg">
           Upcoming
         </button>
-        <button className="flex justify-center items-center w-[9rem] h-[2rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white   text-xs">
+        <button className="flex justify-center items-center w-[9rem] h-[3rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white   text-lg">
           Finished
         </button>
         <Dropdown
           menu={{
             items,
           }}
-          className="flex justify-center w-36 border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  "
+          className="flex justify-center w-36 h-[3rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  text-lg"
         >
           <Space className="p-1">
             Chains
@@ -72,7 +72,7 @@ function Idos() {
           </Space>
         </Dropdown>
         <Input
-          className="flex justify-center items-center h-[2rem]  search-size  border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  "
+          className="flex justify-center items-center h-[3rem]  search-size  border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  "
           placeholder="Search By Name"
           style={{
             backgroundColor: "transparent", // Set background to transparent

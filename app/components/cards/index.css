@@ -1,11 +1,14 @@
 .hovr {
+  background: radial-gradient(#02656d, #024578) !important;
+  color: white !important;
+  width: 22rem !important;
+}
+.bg-custom-color{
   background: black !important;
   color: white !important;
   width: 22rem !important;
 }
-.hovr:hover {
-  background: radial-gradient(#02656d, #024578) !important;
-}
+ 
 .width-div {
   width: 70rem !important;
 }
@@ -21,6 +24,11 @@
     margin-left: 1rem;
   }
   .hovr {
+    background: radial-gradient(#02656d, #024578) !important;
+    color: white !important;
+    width: 20rem !important;
+  }
+  .bg-custom-color{
     background: black !important;
     color: white !important;
     width: 20rem !important;
@@ -31,27 +39,28 @@
     width: 100% !important;
   }
   .hovr {
+    background: radial-gradient(#02656d, #024578) !important;
+    color: white !important;
+    width: 22.5rem !important;
+  }
+  .bg-custom-color{
     background: black !important;
     color: white !important;
     width: 22.5rem !important;
   }
 }
 @media (max-width: 500px) {
-  .width-div {
-    width: 100%;
+    .width-div {
+      width: 22rem!important;
+    }
+    .hovr {
+      background: radial-gradient(#02656d, #024578) !important;
+      color: white !important;
+      width: 21.5rem !important;
+    }
+    .bg-custom-color{
+      background: black !important;
+      color: white !important;
+      width: 21.5rem !important;
+    }
   }
-  .hovr {
-    background: black !important;
-    color: white !important;
-    width: 24rem !important;
-  }
-  .cardsmall {
-    width: 21rem !important;
-  }
-}
-
-@media (max-width: 375px) {
-  .cardsmall {
-    width: 21.5rem !important;
-  }
-}

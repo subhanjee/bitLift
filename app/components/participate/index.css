@@ -1,13 +1,13 @@
 .font-size-part {
   font-size: 3rem;
+  margin-top: 5rem;
 }
 .part-font {
   font-size: 0.8rem;
 }
 .paddPart {
   padding: 50px 0px !important;
-  width: 100%;
-  height: auto;
+  
 }
 .font-dive {
   font-size: 1rem;
@@ -25,11 +25,11 @@
 .mr-top {
   margin-top: 6rem;
  }
- .hero-ab{
+ .hero-ab {
   position: absolute;
-  margin-top: -10rem;
+  margin-top: 0rem;
   width: 100%;
- 
+  height: auto;
 }
 @media (max-width: 1024px) {
   .bodr {
@@ -52,8 +52,9 @@
 @media (max-width: 768px) {
  
   .med-scr {
-    width: 26rem;
+    width: 24rem;
     height: 26rem;
+     
   }
   .font-dive {
     font-size: 0.8rem;
@@ -63,9 +64,9 @@
   }
   .hero-ab{
     position: absolute;
-    margin-top: -34rem;
+    margin-top: -5rem;
     width: 100%;
-   
+   height: 150vh;
   }
 }
 @media (max-width: 500px) {

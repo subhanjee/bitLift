@@ -76,18 +76,18 @@ function FAQ() {
   return (
     <div className="flex justify-center items-center flex-col  martop">
       <h1 className="font-size-part text-white text-center">Have a question?</h1>
-      <h2 className=" text-[#4E616B] font-size-part ">FAQ</h2>
+      <h2 className=" text-[#4E616B]  text-[3rem] ">FAQ</h2>
       <hr className="border-[white] collap mt-14" />
       <Collapse
         bordered={false}
         expandIconPosition="end"
         accordion 
-        items={items}
+        items={items} 
         className=" collap " 
       />
       <hr className="border-[white] collap" />
     </div>
-  );
+  ); 
 }
 
 export default FAQ;

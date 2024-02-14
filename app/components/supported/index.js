@@ -9,10 +9,10 @@ function Supported() {
         Supported Chains
       </p> 
       <div className="flex justify-center">
-        {" "}
-        <div className="border border-[#00ACB6] rounded-md py-3 mt-8 p-1 pl-10 pr-10 mb-8 py-5">
+        {" "} 
+        <div className=" border border-[#00ACB6] rounded-md  w-[70rem] py-5 mt-8   mb-8  ">
           {" "} 
-          <Row className="flex justify-center gap-[2rem]">
+          <Row justify="center" className="  gap-[1rem] md:gap-[3rem] lg:gap-[5rem]">
             <Col className="flex items-center justify-center w-[4rem] h-[4rem] bg-[#020415] rounded-full text-white">
               <img
                 className="w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]"
@@ -71,7 +71,7 @@ function Supported() {
         </p>
         <div className="flex justify-center">
           {" "}
-          <button className="flex justify-center items-center w-[10rem] h-[2rem] border rounded-md border-[#00ACB6] bg-[#00ACB6] hover:border-2  text-center lg:inline-flex lg:mt-0 text-white ml-4 mr-4 text-sm font-semibold mb-[18rem]">
+          <button className="flex justify-center items-center w-[15rem] h-[3rem] border rounded-md border-[#00ACB6] bg-[#00ACB6] hover:border-2  text-center lg:inline-flex lg:mt-0 text-white  text-lg font-semibold  ">
             Apply to launch
           </button>
         </div>
