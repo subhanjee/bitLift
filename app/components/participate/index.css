@@ -75,13 +75,10 @@
   }
   .font-size-part {
     font-size: 1.5rem;
-    margin-top: 10rem;
+    margin-top: 2rem;
   }
   .hero-ab{
-    position: absolute;
-    margin-top: -5rem;
-    width: 100%;
-   height: 120vh;
+   display: none;
   }
   .med-scr {
     width: 100%;
