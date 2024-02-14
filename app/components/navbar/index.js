@@ -1,9 +1,20 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import React,{useState} from "react";
 import logo from "../images/FullLogo 1.png";
 import { DownOutlined, SmileOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 function Navbar() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
   const items = [
     {
       key: "1",
@@ -44,13 +55,18 @@ function Navbar() {
   ];
   return (
     <div className="flex items-center justify-center   ">
-      <nav className="flex items-center justify-between flex-wrap container     p-6">
+      <nav
+        className="flex items-center justify-between flex-wrap container p-6 relative z-50"
+        style={{ background: "transparent" }}
+      >
         <div className="flex items-center    ">
           <Image src={logo} alt="abc" />
         </div>
         <div className="block lg:hidden">
-          <button className="flex items-center px-3 py-2 border rounded text-white border-teal-400 hover:text-white hover:border-white">
-            <svg
+        <button
+            onClick={toggleMobileMenu}
+            className="flex items-center px-3 py-2 border rounded text-white border-teal-400 hover:text-white hover:border-white"
+          >            <svg
               className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +76,11 @@ function Navbar() {
             </svg>
           </button>
         </div>
-        <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div
+          className={`w-full    block flex-grow lg:flex lg:items-center lg:w-auto ${
+            isMobileMenuOpen ? "block" : "hidden"
+          }  `}
+        >
           <div className="text-sm lg:flex-grow"></div>
           <div>
             <div className="text-sm lg:flex-grow  ">
@@ -82,7 +102,7 @@ function Navbar() {
               >
                 Portfolio
               </a>
-              
+
               <Dropdown
                 menu={{
                   items,
@@ -91,10 +111,12 @@ function Navbar() {
               >
                 <Space>
                   Doc
-                  <DownOutlined style={{fontSize: ".7rem",marginLeft: ".5rem"}}/>
+                  <DownOutlined
+                    style={{ fontSize: ".7rem", marginLeft: ".5rem" }}
+                  />
                 </Space>
               </Dropdown>
-             
+
               <Dropdown
                 menu={{
                   items,
@@ -103,7 +125,9 @@ function Navbar() {
               >
                 <Space>
                   Social
-                  <DownOutlined style={{fontSize: ".7rem",marginLeft: ".5rem"}}/>
+                  <DownOutlined
+                    style={{ fontSize: ".7rem", marginLeft: ".5rem" }}
+                  />
                 </Space>
               </Dropdown>
 
@@ -115,10 +139,12 @@ function Navbar() {
               >
                 <Space>
                   $Lift
-                  <DownOutlined style={{fontSize: ".7rem",marginLeft: ".5rem"}}/>
+                  <DownOutlined
+                    style={{ fontSize: ".7rem", marginLeft: ".5rem" }}
+                  />
                 </Space>
               </Dropdown>
-               
+
               <a
                 href="#"
                 className="inline-block   justify-center items-center text-sm px-6 py-3 leading-none  bg-[#00ACB6] rounded-full text-white  mt-4 lg:mt-0 ml-4 mr-4"
@@ -129,7 +155,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      </div>
+    </div>
   );
 }
 
