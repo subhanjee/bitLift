@@ -77,7 +77,7 @@ function Navbar() {
           </button>
         </div>
         <div
-          className={`w-full    block flex-grow lg:flex lg:items-center lg:w-auto ${
+          className={`w-full flex justify-center item-center   block flex-grow lg:flex lg:items-center lg:w-auto ${
             isMobileMenuOpen ? "block" : "hidden"
           }  `}
         >

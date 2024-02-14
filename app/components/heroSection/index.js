@@ -11,7 +11,7 @@ import bigBulb from "../images/Vector (3).png";
   const text = ' "Build on Bitcoin," ';
 
   return (
-    <div className="pos-main">
+    <div className="pos-main"> 
       <div className="flex justify-center items-center flex-col   topmar ">
         <h1 className="text-[#F5F5F5] font-size text-enter -mb-5 ">Launch</h1>
         <h1 className="text-[#F5F5F5] font-size text-enter">
