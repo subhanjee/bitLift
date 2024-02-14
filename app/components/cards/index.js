@@ -330,14 +330,19 @@ function Cards() {
                 }`}
                 cover={
                   <img
-                    className="h-[15rem] w-[25rem] p-[0.1rem]"
+                    className="h-[10rem] w-[20rem] md:w-[25rem] md:h-[15rem] p-[0.1rem]"
                     alt="example"
                     src={item.image}
                   />
                 }
               >
-                <div className="flex justify-center items-center gap-4 mt-2">
-                  <img alt="example" src={item.imagedown} />
+                <Image src={eth} alt="" className="eth-img" />
+                <div className="flex justify-center items-center gap-4 ">
+                  <img
+                    alt="example"
+                    src={item.imagedown}
+                    className="h-[5rem]"
+                  />
                   <div className="block ">
                     <p className="text-[1.5rem] mb-2">{item.currency}</p>
                     <div className="flex ">
@@ -358,29 +363,45 @@ function Cards() {
                     </div>
                   </div>
                 </div>
-                <div className="flex justify-center gap-[5rem] mt-7">
+                <div className="flex justify-center gap-[5rem] mt-5">
                   <div>
-                    <p className="text-lg font-semibold">Total Raised</p>
-                    <p className="text-base font-thin">{item.totalraised}</p>
+                    <p className="text-md md:text-lg font-semibold">
+                      Total Raised
+                    </p>
+                    <p className="text:md md:text-base font-thin">
+                      {item.totalraised}
+                    </p>
                   </div>
                   <div>
-                    <p className="text-lg font-semibold">Presale Price</p>
-                    <p className="text-base font-thin">{item.presaleprice}</p>
-                  </div>
-                </div>
-                <div className="flex justify-center gap-10 mt-7">
-                  <div>
-                    <p className="text-lg font-semibold">Listing Time</p>
-                    <p className="text-base font-thin">{item.listingtime}</p>
-                  </div>
-                  <div>
-                    <p className="text-lg font-semibold">Launch Price</p>
-                    <p className="text-base font-thin">{item.launchprice}</p>
+                    <p className="text-md md:text-lg font-semibold">
+                      Presale Price
+                    </p>
+                    <p className="text:md md:text-base font-thin">
+                      {item.presaleprice}
+                    </p>
                   </div>
                 </div>
-                <div className="flex justify-center mt-8">
+                <div className="flex justify-center gap-10 mt-5">
+                  <div>
+                    <p className="text-md md:text-lg  font-semibold">
+                      Listing Time
+                    </p>
+                    <p className="text:md md:text-base font-thin">
+                      {item.listingtime}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-md md:text-lg  font-semibold">
+                      Launch Price
+                    </p>
+                    <p className="text:md md:text-base font-thin">
+                      {item.launchprice}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-center mt-5">
                   {" "}
-                  <button className="flex justify-center items-center w-[8rem] h-[2rem] border rounded-md border-[#00ACB6] bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-4 mr-4 text-base font-semibold ">
+                  <button className="flex justify-center items-center w-[8rem] h-[2rem] border rounded-md border-[#00ACB6] bg-[#00ACB6] hover:border-2 mt-2 text-center lg:inline-flex lg:mt-0 text-white ml-4 mr-4 text-base font-semibold ">
                     {item.buttontext}
                   </button>
                 </div>
