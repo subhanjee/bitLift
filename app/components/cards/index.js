@@ -245,7 +245,7 @@ function Cards() {
             <div key={index} className="flex flex-col ">
               <Card
                 key={index}
-                className="w-full hovr mt-2 mb-10"
+                className="w-full hovr mt-2 mb-10 cardsmall"
                 style={{
                   color: "white",
                   border: "1px solid #00ACB6", // Border color
@@ -310,7 +310,7 @@ function Cards() {
               </Card>
               <Card
                 key={index}
-                className="w-full hovr mt-[5rem] mb-2"
+                className="w-full hovr mt-[5rem] mb-2 cardsmall"
                 style={{
                   color: "white",
                   border: "1px solid #00ACB6", // Border color

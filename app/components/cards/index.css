@@ -9,11 +9,11 @@
 .width-div {
   width: 70rem !important;
 }
-.eth-img{
-    position: absolute;
-    right: 0;
-    margin-top: -3.5rem;
-    margin-right: .5rem;
+.eth-img {
+  position: absolute;
+  right: 0;
+  margin-top: -3.5rem;
+  margin-right: 0.5rem;
 }
 @media (max-width: 1024px) {
   .width-div {
@@ -37,12 +37,18 @@
   }
 }
 @media (max-width: 425px) {
-    .width-div {
-      width: 100%;
-    }
-    .hovr {
-      background: black !important;
-      color: white !important;
-      width: 24rem !important;
-    }
+  .width-div {
+    width: 100%;
   }
+  .hovr {
+    background: black !important;
+    color: white !important;
+    width: 24rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .cardsmall {
+    width: 21.5rem !important;
+  }
+}
