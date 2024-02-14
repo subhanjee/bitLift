@@ -177,3 +177,9 @@
     width: 25rem;
   }
 }
+@media(max-width: 500px){
+  .p-font {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+}
