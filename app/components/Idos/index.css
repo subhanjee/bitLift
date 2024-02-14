@@ -2,3 +2,36 @@
   color: white !important;
   text-align: center !important;
 }
+.search-size {
+  width: 15rem;
+}
+.div-ido{
+  width: 75rem;
+}
+@media(max-width: 1024px){
+  .search-size {
+    width: 12rem;
+  }
+  .div-ido{
+    width: 62rem;
+  }
+}
+@media(max-width: 768px){
+  .search-size {
+    width: 10rem;
+  }
+  .div-ido{
+    width: 48rem;
+  }
+}
+@media(max-width: 767px){
+  .search-size {
+    width: 12rem;
+  }
+  .div-ido{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+}

@@ -25,6 +25,12 @@
 .mr-top {
   margin-top: 6rem;
  }
+ .hero-ab{
+  position: absolute;
+  margin-top: -10rem;
+  width: 100%;
+ 
+}
 @media (max-width: 1024px) {
   .bodr {
     padding: 32px;
@@ -41,5 +47,40 @@
   }
   .mr-top {
     margin-top: 2rem;
+  }
+}
+@media (max-width: 768px) {
+ 
+  .med-scr {
+    width: 26rem;
+    height: 26rem;
+  }
+  .font-dive {
+    font-size: 0.8rem;
+  }
+  .mr-top {
+    margin-top: 2rem;
+  }
+  .hero-ab{
+    position: absolute;
+    margin-top: -34rem;
+    width: 100%;
+   
+  }
+}
+@media (max-width: 500px) {
+ 
+ 
+  .font-dive {
+    font-size: 0.8rem;
+  }
+  .mr-top {
+    margin-top: 0rem;
+  }
+  .hero-ab{
+    position: absolute;
+    margin-top: -40rem;
+    width: 100%;
+   height: 350vh;
   }
 }

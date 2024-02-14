@@ -4,13 +4,15 @@ import Cards from "./components/cards";
 import Footer from "./components/footer";
 import HeroSection from "./components/heroSection";
 import Launch from "./components/launch";
+import Navbar from "./components/navbar";
  import Participate from "./components/participate";
 import Supported from "./components/supported";
 
 export default function Home() {
   return (
-    <div className="bg-black px-2">
-      <div className="pos-main">
+    <div className=" bg-black px-2">
+      <div className="bg-[#010314] ">
+      <Navbar />
       <HeroSection />
       </div>
       <Idos />
@@ -20,6 +22,7 @@ export default function Home() {
       <FAQ />
       <Launch />
       <Footer />
+       
     </div>
   );
 }

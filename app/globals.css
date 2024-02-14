@@ -103,18 +103,18 @@
 }
 @media(max-width: 768px){
   .collap{
-    width: 40rem;
-  }
-  .hero-ab{
-    position: absolute;
-    margin-top: -35rem;
-    width: 100%;
-   
-   
-  }
-}
-@media(max-width: 425px){
-  .collap{
     width: 100%;
   }
+ 
 }
+@media (max-width: 500px){
+ 
+  .foot-pad{
+    padding: 50px 0px;
+    width: 100%;
+   }
+   .foot-padline{
+    width: 100%;
+    }
+}
+ 
