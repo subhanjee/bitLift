@@ -1,0 +1,10 @@
+.div-support{
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+}
+@media(max-width: 1440px){
+    .div-support{
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+    }
+}

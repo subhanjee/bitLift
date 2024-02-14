@@ -46,39 +46,37 @@ function Idos() {
     },
   ];
   return (
-    <div className="mt-[10rem]">
-      <div >
+    <div className="mt-[5rem] md:mt-[10rem] flex  justify-center items-center flex-col">
+      <div>
         <p className="text-white text-center text-2xl pb-8">IDOs</p>
       </div>
-      <div className="flex justify-center text-white pb-24">
-        <button className="flex justify-center items-center w-[9rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-10 mr-8 text-xs">
+      <div className="intial-block div-ido md:flex justify-evenly items-center text-white pb-24">
+       
+        <button className="flex justify-center items-center w-[9rem] h-[2rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white   text-xs">
           Live
         </button>
-        <button className="flex justify-center items-center w-[9rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-10 mr-8 text-xs">
+        <button className="flex justify-center items-center w-[9rem] h-[2rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white   text-xs">
           Upcoming
         </button>
-        <button className="flex justify-center items-center w-[9rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-10 mr-8 text-xs">
+        <button className="flex justify-center items-center w-[9rem] h-[2rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white   text-xs">
           Finished
         </button>
         <Dropdown
           menu={{
             items,
           }}
-          className="flex justify-center w-36 border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-10 mr-8"
+          className="flex justify-center w-36 border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  "
         >
           <Space className="p-1">
             Chains
             <DownOutlined style={{ fontSize: ".7rem", marginLeft: ".5rem" }} />
           </Space>
         </Dropdown>
-
         <Input
-          className="flex justify-center items-center  w-34 border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white ml-10 mr-8"
+          className="flex justify-center items-center h-[2rem]  search-size  border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] mt-4 text-center lg:inline-flex lg:mt-0 text-white  "
           placeholder="Search By Name"
-          // onSearch={onSearch}
           style={{
             backgroundColor: "transparent", // Set background to transparent
-            width: 220,
             paddingRight: "30px", // Adjust the padding to accommodate the search icon
             textAlign: "right",
           }}

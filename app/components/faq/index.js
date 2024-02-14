@@ -83,7 +83,7 @@ function FAQ() {
         expandIconPosition="end"
         accordion
         items={items}
-        className=" collap "
+        className=" collap " 
       />
       <hr className="border-[white] collap" />
     </div>

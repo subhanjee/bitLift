@@ -4,7 +4,7 @@ function Launch() {
   return (
     <div className="flex justify-center items-center flex-col mt-5">
     <div className="bg-rad ">
-      <h1 className="radial-text-gradient-01 text-[3rem] text-center ">
+      <h1 className="radial-text-gradient-01 text-[1.5rem] md:text-[3rem] text-center ">
         Launch with confidence <br />
         on Bitcoin Ecosystem
         <br />
