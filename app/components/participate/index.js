@@ -47,7 +47,7 @@ function Participate() {
             </div>
           </Col>
           <Col>
-            <div className="  flex justify-center items-center   ">
+            <div className="  flex justify-center items-center ">
               <Image
                 src={video}
                 alt=""
