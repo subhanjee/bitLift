@@ -81,7 +81,7 @@ function FAQ() {
       <Collapse
         bordered={false}
         expandIconPosition="end"
-        accordion
+        accordion 
         items={items}
         className=" collap " 
       />

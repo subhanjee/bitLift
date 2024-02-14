@@ -46,12 +46,11 @@ function Idos() {
     },
   ];
   return (
-    <div className="mt-[5rem] md:mt-[10rem] flex  justify-center items-center flex-col">
+    <div className="mt-[5rem] md:mt-[10rem] mar-top flex  justify-center items-center flex-col">
       <div>
         <p className="text-white text-center text-2xl pb-8">IDOs</p>
       </div>
       <div className="intial-block div-ido md:flex justify-evenly items-center text-white pb-24">
-       
         <button className="flex justify-center items-center w-[9rem] h-[2rem] border rounded-md border-[#00ACB6] hover:bg-[#00ACB6] hover:border-2 mt-4 text-center lg:inline-flex lg:mt-0 text-white   text-xs">
           Live
         </button>

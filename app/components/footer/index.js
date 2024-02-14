@@ -4,10 +4,10 @@ import footLogo from "../images/Icon 2 1.png";
 import Image from "next/image";
 function Footer() {
   return (
-    <div className="mt-15  py-10 ">
+    <div className="mt-[3rem]  py-2 ">
       {/* <div className="foot-pad "> */}
         <Row justify="center">
-        <Col xxl={4} xl={4} lg={4} md={4} xs={8}>
+        <Col xxl={3} xl={3} lg={4} md={4} xs={8}>
             <div className="flex justify-center items-center flex-col">
               <Image src={footLogo} alt="" />
               <p className="radial-text-gradient-01 text-[2rem] text-center font-bold">
@@ -15,7 +15,7 @@ function Footer() {
               </p>
             </div>
           </Col> 
-          <Col xxl={4} xl={4} lg={4} md={4} xs={8}>
+          <Col xxl={3} xl={4} lg={4} md={4} xs={8}>
             <div className="flex justify-center items-center flex-col">
               <div>
                 <p className="text-white font-bold">Launchpad</p>
@@ -26,7 +26,7 @@ function Footer() {
               </div>
             </div>
           </Col>
-          <Col xxl={4} xl={4} lg={4} md={4} xs={8}>
+          <Col xxl={3} xl={4} lg={4} md={4} xs={8}>
             <div className="flex justify-center items-center flex-col">
               <div>
                 <p className="text-white font-bold">Resources</p>
@@ -36,7 +36,7 @@ function Footer() {
               </div>
             </div>
           </Col>
-          <Col xxl={4} xl={4} lg={4} md={4} xs={8}>
+          <Col xxl={3} xl={4} lg={4} md={4} xs={8}>
             <div className="flex justify-center items-center flex-col">
               <div>
                 <p className="text-white font-bold">Token</p>
@@ -47,7 +47,7 @@ function Footer() {
               </div>
             </div>
           </Col>
-          <Col xxl={4} xl={4} lg={4} md={4} xs={8}>
+          <Col xxl={3} xl={4} lg={4} md={4} xs={8}>
             <div className="flex justify-center items-center flex-col">
               <div>
                 <p className="text-white font-bold">Legal</p>
@@ -58,7 +58,7 @@ function Footer() {
               </div>
             </div>
           </Col>
-          <Col xxl={4} xl={4} lg={4} md={4} xs={8}>
+          <Col xxl={3} xl={3} lg={4} md={4} xs={8}>
             <div className="flex justify-center items-center flex-col">
               <div>
                 <p className="text-white font-bold">Support</p>
@@ -73,7 +73,7 @@ function Footer() {
         </Row>
       {/* </div> */}
       <hr className="border-[#BABCD2]  mt-[5rem]" />
-      <p className="text-center  text-[#BABCD2] mt-4 mb-20">
+      <p className="text-center  text-[#BABCD2] mt-4 mb-10">
         © 2024 BitLift.io || All rights reserved.
       </p>
     </div>
