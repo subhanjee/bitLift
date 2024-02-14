@@ -240,7 +240,7 @@ function Cards() {
   return (
     <div className="flex justify-center items-center">
       <div className=" width-div">
-        <Slider {...settings} className="text-white py-5 ">
+        <Slider {...settings} className=" text-white py-5 ">
           {data1.map((item, index) => (
             <div key={index} className="flex flex-col ">
               <Card
