@@ -28,7 +28,7 @@
 }
 @media (max-width: 768px) {
   .width-div {
-    width: 100%;
+    width: 100% !important;
   }
   .hovr {
     background: black !important;
@@ -36,7 +36,7 @@
     width: 22.5rem !important;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .width-div {
     width: 100%;
   }

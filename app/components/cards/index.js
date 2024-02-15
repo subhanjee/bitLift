@@ -238,7 +238,7 @@ const data1 = [
 
 function Cards() {
   return (
-    <div className="flex justify-center items-center slider-container ">
+    <div className="flex justify-center items-center">
       <div className=" width-div">
         <Slider {...settings} className="text-white py-5 ">
           {data1.map((item, index) => (
@@ -380,4 +380,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default Cards
