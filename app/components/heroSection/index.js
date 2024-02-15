@@ -26,7 +26,7 @@ import bigBulb from "../images/Vector (3).png";
         <div className="mt-5 md:mt-10 mbl-hero  flex justify-evenly items-center w-[30rem]">
           <button className="rounded-3xl mt-2 mb-2 bg-[#00ACB6] text-center text-white px-4 py-2 p-fontbtn flex items-center">
             <Image src={btnLogo} alt="" className="mr-2" /> Buy $LIFT
-          </button>
+          </button> 
           <button className="rounded-3xl bg-[#00ACB6] text-center text-white px-4 py-2 p-fontbtn">
             Apply to launch
           </button>
@@ -45,9 +45,8 @@ import bigBulb from "../images/Vector (3).png";
           <button className="rounded-3xl bg-[#00ACB6] text-center text-white px-4 py-2 p-fontbtn">
             Apply to launch
           </button>
-       
         </div>
-        <div className="flex justify-evenly  w-[10rem] mt-5 ">
+        <div className="flex justify-evenly  w-[10rem] mt-5 mb-10 ">
           <Image src={LogoOne} alt="" className="mr-1 w-5 h-5 mt-2 mb-2" />
           <Image src={LogoTwo} alt="" className="mr-1 w-6 h-6 mt-2 mb-2" />
           <Image src={LogoTwo} alt="" className="mr-1 w-6 h-6 mt-2 mb-2" />

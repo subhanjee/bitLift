@@ -212,7 +212,7 @@
     font-size: 0.8rem;
     width: 25rem;
   }
-}
+} 
 @media(max-width: 500px){
   .p-font {
     font-size: 0.8rem;
@@ -225,7 +225,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 85vh;
+    height: 100%;
+ 
   }
   .topmar {
     margin-top: 1rem;
@@ -235,5 +236,6 @@
   }
   .mbl-hero-mbl {
     display: flex;
+   
   }
 }
