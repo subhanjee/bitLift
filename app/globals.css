@@ -23,8 +23,8 @@
 }
 .bg-rad {
   background: radial-gradient(#03646e, #023e7e);
-  padding: 80px 0px;
-  border-radius: 1rem;
+  padding: 100px 0px;
+  border-radius: 1.5rem;
   width: 100%;
 }
 .foot-pad {
@@ -48,11 +48,7 @@
   letter-spacing: normal;
   line-height: normal;
 }
-.hero-ab {
-  position: absolute;
-  margin-top: -10rem;
-  width: 100%;
-}
+
 .martop {
   margin-top: 18rem;
   margin-bottom: 8rem;
@@ -65,30 +61,27 @@
 .collap {
   width: 60rem;
 }
+@media (max-width: 1920px) {
+  .martop {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+}
 @media (max-width: 1440px) {
   .martop {
-    margin-top: 2rem;
+    margin-top: 0rem;
     margin-bottom: 8rem;
   }
 }
-@media (max-width: 1227px) {
-  .foot-pad {
-    padding: 80px 0px;
-    width: 100%;
-  }
-  .foot-padline {
-    width: 100%;
-  }
-  .martop {
-    margin-top: 5rem;
-    margin-bottom: 8rem;
-  }
-}
+ 
 @media (max-width: 1024px) {
   .collap {
     width: 40rem;
   }
-
+  .martop {
+    margin-top: -5rem;
+    margin-bottom: 8rem;
+  }
   .foot-pad {
     padding: 80px 0px;
     width: 100%;

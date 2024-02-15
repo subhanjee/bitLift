@@ -10,7 +10,7 @@ import bigBulb from "../images/Vector (3).png";
  function HeroSection() {
   const text = ' "Build on Bitcoin," ';
 
-  return (
+  return ( 
     <div className="pos-main"> 
       <div className="flex justify-center items-center flex-col   topmar ">
         <h1 className="text-[#F5F5F5] font-size text-enter -mb-5 ">Launch</h1>
@@ -37,8 +37,7 @@ import bigBulb from "../images/Vector (3).png";
         </div>
         </div>
         <div>
-          <Image src={Bulb} alt="" className=" pos-img" />
-          <Image src={bigBulb} alt="" className=" pos-imgbig" />
+           <Image src={bigBulb} alt="" className=" pos-imgbig" />
         </div>
       </div>
       <div className="layer"></div>
