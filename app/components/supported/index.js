@@ -12,52 +12,52 @@ function Supported() {
         {" "} 
         <div className=" border border-[#00ACB6] rounded-md  w-[70rem] py-5 mt-8   mb-8  ">
           {" "} 
-          <Row justify="center" className="  gap-[1rem] md:gap-[3rem] lg:gap-[5rem]">
-            <Col className="flex items-center justify-center w-[4rem] h-[4rem] bg-[#020415] rounded-full text-white">
-              <img
-                className="w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]"
+          <Row justify="center" className="  gap-[.5rem] md:gap-[2rem] lg:gap-[5rem]">
+            <Col  className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[4rem] md:h-[4rem] bg-[#020415] rounded-full text-white">
+               <img
+                className="w-[1.5rem] h-[1.5rem] md:w-[3rem] md:h-[3rem]"
                 alt="abc"
                 src="../images/bitcoinblue.png"
               />
             </Col>
-            <Col className="flex items-center justify-center md:w-[4rem] md:h-[4rem] bg-[#020415] rounded-full text-white">
+            <Col  className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[4rem] md:h-[4rem] bg-[#020415] rounded-full text-white">
               <img
-                className="w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]"
+                className="w-[1.5rem] h-[1.5rem] md:w-[3rem] md:h-[3rem]"
                 alt="abc"
                 src="../images/etheriumblue.png"
               />
             </Col>
-            <Col className="flex items-center justify-center w-[4rem] h-[4rem] bg-[#020415] rounded-full text-white">
+            <Col  className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[4rem] md:h-[4rem] bg-[#020415] rounded-full text-white">
               <img
-                className="w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]"
+                className="w-[1.5rem] h-[1.5rem] md:w-[3rem] md:h-[3rem]"
                 alt="abc"
                 src="../images/polygonblue.png"
               />
             </Col>
-            <Col className="flex items-center justify-center w-[4rem] h-[4rem] bg-[#020415] rounded-full text-white">
+            <Col  className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[4rem] md:h-[4rem] bg-[#020415] rounded-full text-white">
               <img
-                className="w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]"
+                className="w-[1.5rem] h-[1.5rem] md:w-[3rem] md:h-[3rem]"
                 alt="abc"
                 src="../images/binanceblue.png"
               />
             </Col>
-            <Col className="flex items-center justify-center w-[4rem] h-[4rem] bg-[#020415] rounded-full text-white">
+            <Col  className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[4rem] md:h-[4rem] bg-[#020415] rounded-full text-white">
               <img
-                className="w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]"
+                className="w-[1.5rem] h-[1.5rem] md:w-[3rem] md:h-[3rem]"
                 alt="abc"
                 src="../images/avalancheblue.png"
               />
             </Col>
-            <Col className="flex items-center justify-center w-[4rem] h-[4rem] bg-[#020415] rounded-full text-white">
+            <Col  className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[4rem] md:h-[4rem] bg-[#020415] rounded-full text-white">
               <img
-                className="w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]"
+                className="w-[1.5rem] h-[1.5rem] md:w-[3rem] md:h-[3rem]"
                 alt="abc"
                 src="../images/arcticblue.png"
               />
             </Col>
-            <Col className="flex items-center justify-center w-[4rem] h-[4rem] bg-[#020415] rounded-full text-white">
+            <Col  className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[4rem] md:h-[4rem] bg-[#020415] rounded-full text-white">
               <img
-                className="w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]"
+                className="w-[1.5rem] h-[1.5rem] md:w-[3rem] md:h-[3rem]"
                 alt="abc"
                 src="../images/solanablue.png"
               />

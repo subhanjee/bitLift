@@ -7,9 +7,12 @@
 }
 .div-ido {
   width: 75rem;
-}
+} 
 .mar-top {
   margin-top: 3rem;
+}
+.div-ido-mbl{
+  display: none !important;
 }
 @media (max-width: 1400px) {
   .mar-top {
@@ -32,14 +35,15 @@
     width: 48rem;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 500px) {
   .search-size {
     width: 12rem;
   }
   .div-ido {
-    display: flex;
-    justify-content: center;
+     display: none !important;
+  }
+  .div-ido-mbl{
+    display: flex !important;
     flex-direction: column;
-    width: 100%;
   }
 }

@@ -41,6 +41,9 @@
   align-items: center;
   width: 30rem;
 }
+.mbl-hero-mbl {
+  display: none;
+}
 @media (max-width: 1920px) {
  
   .font-size {
@@ -213,7 +216,8 @@
 @media(max-width: 500px){
   .p-font {
     font-size: 0.8rem;
-    width: 100%;
+    width:20rem;
+    margin-top: 1rem;
   }
   .pos-main {
     background-image: url("../images/Main.png");
@@ -227,10 +231,9 @@
     margin-top: 1rem;
   }
   .mbl-hero {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    flex-direction: column !important;
-    width: 100% !important;
+  display: none !important;
+  }
+  .mbl-hero-mbl {
+    display: flex;
   }
 }

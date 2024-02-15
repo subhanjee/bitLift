@@ -12,7 +12,7 @@ import bigBulb from "../images/Vector (3).png";
 
   return ( 
     <div className="pos-main"> 
-      <div className="flex justify-center items-center flex-col   topmar ">
+      <div className="flex justify-center items-center flex-col   topmar "> 
         <h1 className="text-[#F5F5F5] font-size text-enter -mb-5 ">Launch</h1>
         <h1 className="text-[#F5F5F5] font-size text-enter">
           with <a className="text-[#00ACB6]">BitLift</a>
@@ -22,6 +22,7 @@ import bigBulb from "../images/Vector (3).png";
           token standard. Embodying the ethos of {text} it serves as a catalyst
           for advancing blockchain technology within the Bitcoin ecosystem.
         </p>
+        {/* desktop  */}
         <div className="mt-5 md:mt-10 mbl-hero  flex justify-evenly items-center w-[30rem]">
           <button className="rounded-3xl mt-2 mb-2 bg-[#00ACB6] text-center text-white px-4 py-2 p-fontbtn flex items-center">
             <Image src={btnLogo} alt="" className="mr-2" /> Buy $LIFT
@@ -35,6 +36,22 @@ import bigBulb from "../images/Vector (3).png";
           <Image src={LogoTwo} alt="" className="mr-1 w-6 h-6 mt-2 mb-2" />
           <Image src={LogoThree} alt="" className="mr-1 w-6 h-6 mt-2 mb-2" />
         </div>
+        </div>
+        {/* mobile version */}
+        <div className="mt-5 md:mt-10 mbl-hero-mbl  flex justify-evenly items-center w-[18rem]">
+          <button className="rounded-3xl mt-2 mb-2 bg-[#00ACB6] text-center text-white px-4 py-2 p-fontbtn flex items-center">
+            <Image src={btnLogo} alt="" className="mr-2" /> Buy $LIFT
+          </button>
+          <button className="rounded-3xl bg-[#00ACB6] text-center text-white px-4 py-2 p-fontbtn">
+            Apply to launch
+          </button>
+       
+        </div>
+        <div className="flex justify-evenly  w-[10rem] mt-5 ">
+          <Image src={LogoOne} alt="" className="mr-1 w-5 h-5 mt-2 mb-2" />
+          <Image src={LogoTwo} alt="" className="mr-1 w-6 h-6 mt-2 mb-2" />
+          <Image src={LogoTwo} alt="" className="mr-1 w-6 h-6 mt-2 mb-2" />
+          <Image src={LogoThree} alt="" className="mr-1 w-6 h-6 mt-2 mb-2" />
         </div>
         <div>
            <Image src={bigBulb} alt="" className=" pos-imgbig" />
