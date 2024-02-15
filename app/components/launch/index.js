@@ -10,12 +10,14 @@ function Launch() {
         <br />
         using BitLift.  
       </h1>
-      <p className=" text-[#BABCD2] text-center text-[.8rem] mt-2  ">
+      <div className="flex justify-center items-center">
+      <p className=" text-[#BABCD2] text-center use-text mt-2  ">
         Use BitLift to uplift your project. We support to launch
-        <br  /> projects on Bitcoin Ecosystem.
+         projects on Bitcoin Ecosystem.
       </p>
+      </div>
       <div className="flex justify-center items-center ">
-      <div className="  flex justify-evenly items-center mt-8 w-[20rem]"> 
+      <div className=" launch-div  mt-8 "> 
       <button className="mt-2 mb-2 px-5 py-2 bg-white rounded-full text-[.8rem] text-black">Apply to launch</button>
       <button className="mt-2 mb-2 px-5 py-2 hover:bg-white rounded-full text-[.8rem]  text-white hover:text-black">Try for free</button>
       </div>

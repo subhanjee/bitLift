@@ -48,7 +48,11 @@
   letter-spacing: normal;
   line-height: normal;
 }
-
+.use-text{
+  font-size: 1rem;
+  width: 20rem;
+  text-align: center;
+}
 .martop {
   margin-top: 18rem;
   margin-bottom: 8rem;
@@ -60,6 +64,12 @@
 }
 .collap {
   width: 60rem;
+}
+.launch-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20rem;
 }
 @media (max-width: 1920px) {
   .martop {
@@ -103,4 +113,15 @@
   .foot-padline {
     width: 100%;
   }
+  .launch-div {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .use-text{
+     font-size: .8rem;
+     width: 15rem;
+}
 }
