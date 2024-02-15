@@ -64,3 +64,8 @@
       width: 20rem !important;
     }
   }
+  @media (min-width:320px) and (max-width:425px) {
+    .cardsmall {
+      width: 20rem !important;
+    }
+  }
