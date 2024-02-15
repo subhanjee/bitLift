@@ -12,7 +12,7 @@ function Participate() {
         How to participate? 
       </h1>    
       <div className="flex justify-evenly items-center mt-10 w-[22rem] md:w-[33rem] relative">
-        <button className="px-6 py-2 text-white border  rounded-full hover:border part-font ">
+      <button className="px-6 py-2 text-white  rounded-full hover:border  part-font ">
           Participate
         </button>
         <button className="px-6 py-2 text-white  rounded-full hover:border  part-font ">
@@ -23,7 +23,7 @@ function Participate() {
         </button>
       </div>
       <div className="mr-top   ">
-        <Row justify="center">
+        <Row justify="center" className="mbl-row">
           <Col>
             <div className="flex justify-center items-center">
               <div className="bg-[#010314]  bodr mt-5 mb-5  ">

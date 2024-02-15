@@ -46,8 +46,8 @@ import bigBulb from "../images/Vector (3).png";
             Apply to launch
           </button>
         </div>
-        <div className="flex justify-evenly  w-[10rem] mt-5 mb-10 ">
-          <Image src={LogoOne} alt="" className="mr-1 w-5 h-5 mt-2 mb-2" />
+        <div className="flex justify-evenly mbl-hero-mbl   w-[10rem] mt-5 mb-10 ">
+          <Image src={LogoOne} alt="" className="mr-1 w-4 h-4 mt-3 mb-2" />
           <Image src={LogoTwo} alt="" className="mr-1 w-6 h-6 mt-2 mb-2" />
           <Image src={LogoTwo} alt="" className="mr-1 w-6 h-6 mt-2 mb-2" />
           <Image src={LogoThree} alt="" className="mr-1 w-6 h-6 mt-2 mb-2" />

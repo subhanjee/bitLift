@@ -325,9 +325,8 @@ function Cards() {
               </Card>
               <Card
                 key={index}
-                className={`w-full  mt-2 mb-10 cardsmall ${
-                  item.id === 1 ? "hovr" : " bg-custom-color" // Change "bg-custom-color" to your desired background color class
-                }`}
+                className="w-full  mt-2 mb-10 cardsmall  bg-custom-color "
+                
                 cover={
                   <img
                     className="h-[10rem] w-[20rem] md:w-[25rem] md:h-[15rem] p-[0.1rem]"

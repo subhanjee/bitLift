@@ -12,7 +12,7 @@ function Supported() {
         {" "} 
         <div className=" border border-[#00ACB6] rounded-md  w-[70rem] py-5 mt-8   mb-8  ">
           {" "} 
-          <Row justify="center" className="  gap-[.5rem] md:gap-[2rem] lg:gap-[5rem]">
+          <Row justify="center" className="  gap-[.8rem] md:gap-[2rem] lg:gap-[5rem]">
             <Col  className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[4rem] md:h-[4rem] bg-[#020415] rounded-full text-white">
                <img
                 className="w-[1.5rem] h-[1.5rem] md:w-[3rem] md:h-[3rem]"
