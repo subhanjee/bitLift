@@ -10,7 +10,7 @@ function Launch() {
         <br />
         using BitLift.  
       </h1>
-      <p className="px-8  text-[#BABCD2] text-center text-[.8rem] mt-2 md:px-0">
+      <p className=" text-[#BABCD2] text-center text-[.8rem] mt-2  ">
         Use BitLift to uplift your project. We support to launch
         <br  /> projects on Bitcoin Ecosystem.
       </p>
