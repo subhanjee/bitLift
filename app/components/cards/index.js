@@ -71,17 +71,17 @@ const settings = {
 const data1 = [
   {
     id: 1,
-    image: "../images/Example 1.png",
-    imagedown: "../images/lith.png",
+    image: "../images/Example.png",
+    imagedown: "../images/image 1.png",
     imagesocial: "../images/github.png",
     imagesocial1: "../images/twitter.png",
     imagesocial2: "../images/linkdin.png",
     imagesocial3: "../images/circular.png",
     imagesocial4: "../images/github.png",
     totalraised: "131,258 USDT",
-    presaleprice: "0.12$",
+    presaleprice: "TBA $",
     listingtime: "5th Feb 11:30:00 UTC",
-    launchprice: "0.22$",
+    launchprice: "TBA $",
     buttontext: "Participate",
     currency: "Ethereum",
     liveorupcoming: "LIVE",
@@ -89,17 +89,17 @@ const data1 = [
   },
   {
     id: 2,
-    image: "../images/Post 1.png",
-    imagedown: "../images/lith.png",
+    image: "../images/Example 1 (1).png",
+    imagedown: "../images/image 1.png",
     imagesocial: "../images/github.png",
     imagesocial1: "../images/twitter.png",
     imagesocial2: "../images/linkdin.png",
     imagesocial3: "../images/circular.png",
     imagesocial4: "../images/github.png",
     totalraised: "131,258 USDT",
-    presaleprice: "0.12$",
+    presaleprice: "TBA $",
     listingtime: "5th Feb 11:30:00 UTC",
-    launchprice: "0.22$",
+    launchprice: "TBA $",
     buttontext: "Register",
     currency: "Ethereum",
     liveorupcoming: "Upcoming",
@@ -107,17 +107,17 @@ const data1 = [
   },
   {
     id: 3,
-    image: "../images/Post 1.png",
-    imagedown: "../images/lite.png",
+    image: "../images/Example 1 (2).png",
+    imagedown: "../images/image 1.png",
     imagesocial: "../images/github.png",
     imagesocial1: "../images/twitter.png",
     imagesocial2: "../images/linkdin.png",
     imagesocial3: "../images/circular.png",
     imagesocial4: "../images/github.png",
     totalraised: "131,258 USDT",
-    presaleprice: "0.12$",
+    presaleprice: "TBA $",
     listingtime: "5th Feb 11:30:00 UTC",
-    launchprice: "0.22$",
+    launchprice: "TBA $",
     buttontext: "Register",
     currency: "LiteCoin",
     liveorupcoming: "Upcoming",
@@ -125,17 +125,17 @@ const data1 = [
   },
   {
     id: 4,
-    image: "../images/Post 1.png",
-    imagedown: "../images/lith.png",
+    image: "../images/Example 1 (1).png",
+    imagedown: "../images/image 1.png",
     imagesocial: "../images/github.png",
     imagesocial1: "../images/twitter.png",
     imagesocial2: "../images/linkdin.png",
     imagesocial3: "../images/circular.png",
     imagesocial4: "../images/github.png",
     totalraised: "131,258 USDT",
-    presaleprice: "0.12$",
+    presaleprice: "TBA $",
     listingtime: "5th Feb 11:30:00 UTC",
-    launchprice: "0.22$",
+    launchprice: "TBA $",
     buttontext: "Register",
     currency: "Ethereum",
     liveorupcoming: "Upcoming",
@@ -143,17 +143,17 @@ const data1 = [
   },
   {
     id: 5,
-    image: "../images/Post 1.png",
-    imagedown: "../images/lite.png",
+    image: "../images/Example 1 (2).png",
+    imagedown: "../images/image 1.png",
     imagesocial: "../images/github.png",
     imagesocial1: "../images/twitter.png",
     imagesocial2: "../images/linkdin.png",
     imagesocial3: "../images/circular.png",
     imagesocial4: "../images/github.png",
     totalraised: "131,258 USDT",
-    presaleprice: "0.12$",
+    presaleprice: "TBA $",
     listingtime: "5th Feb 11:30:00 UTC",
-    launchprice: "0.22$",
+    launchprice: "TBA $",
     buttontext: "Register",
     currency: "LiteCoin",
     liveorupcoming: "Upcoming",
@@ -161,17 +161,17 @@ const data1 = [
   },
   {
     id: 6,
-    image: "../images/Post 1.png",
-    imagedown: "../images/lite.png",
+    image: "../images/Example 1 (1).png",
+    imagedown: "../images/image 1.png",
     imagesocial: "../images/github.png",
     imagesocial1: "../images/twitter.png",
     imagesocial2: "../images/linkdin.png",
     imagesocial3: "../images/circular.png",
     imagesocial4: "../images/github.png",
     totalraised: "131,258 USDT",
-    presaleprice: "0.12$",
+    presaleprice: "TBA $",
     listingtime: "5th Feb 11:30:00 UTC",
-    launchprice: "0.22$",
+    launchprice: "TBA $",
     buttontext: "Register",
     currency: "LiteCoin",
     liveorupcoming: "Upcoming",
@@ -179,17 +179,17 @@ const data1 = [
   },
   {
     id: 7,
-    image: "../images/Post 1.png",
-    imagedown: "../images/lite.png",
+    image: "../images/Example 1 (2).png",
+    imagedown: "../images/image 1.png",
     imagesocial: "../images/github.png",
     imagesocial1: "../images/twitter.png",
     imagesocial2: "../images/linkdin.png",
     imagesocial3: "../images/circular.png",
     imagesocial4: "../images/github.png",
     totalraised: "131,258 USDT",
-    presaleprice: "0.12$",
+    presaleprice: "TBA $",
     listingtime: "5th Feb 11:30:00 UTC",
-    launchprice: "0.22$",
+    launchprice: "TBA $",
     buttontext: "Register",
     currency: "LiteCoin",
     liveorupcoming: "Upcoming",
@@ -197,17 +197,17 @@ const data1 = [
   },
   {
     id: 8,
-    image: "../images/Post 1.png",
-    imagedown: "../images/lite.png",
+    image: "../images/Example 1 (1).png",
+    imagedown: "../images/image 1.png",
     imagesocial: "../images/github.png",
     imagesocial1: "../images/twitter.png",
     imagesocial2: "../images/linkdin.png",
     imagesocial3: "../images/circular.png",
     imagesocial4: "../images/github.png",
     totalraised: "131,258 USDT",
-    presaleprice: "0.12$",
+    presaleprice: "TBA $",
     listingtime: "5th Feb 11:30:00 UTC",
-    launchprice: "0.22$",
+    launchprice: "TBA $",
     buttontext: "Register",
     currency: "LiteCoin",
     liveorupcoming: "Upcoming",
@@ -215,17 +215,17 @@ const data1 = [
   },
   {
     id: 9,
-    image: "../images/Post 1.png",
-    imagedown: "../images/lite.png",
+    image: "../images/Example 1 (2).png",
+    imagedown: "../images/image 1.png",
     imagesocial: "../images/github.png",
     imagesocial1: "../images/twitter.png",
     imagesocial2: "../images/linkdin.png",
     imagesocial3: "../images/circular.png",
     imagesocial4: "../images/github.png",
     totalraised: "131,258 USDT",
-    presaleprice: "0.12$",
+    presaleprice: "TBA $",
     listingtime: "5th Feb 11:30:00 UTC",
-    launchprice: "0.22$",
+    launchprice: "TBA $",
     buttontext: "Register",
     currency: "LiteCoin",
     liveorupcoming: "Upcoming",
@@ -294,8 +294,7 @@ function Cards() {
                       Presale Price
                     </p>
                     <p className="text:md md:text-base font-thin">
-                      {item.presaleprice}
-                    </p>
+                      {item.presaleprice} </p>
                   </div>
                 </div>
                 <div className="flex justify-center gap-10 mt-5">
@@ -323,7 +322,7 @@ function Cards() {
                   </button>
                 </div>
               </Card>
-              <Card
+              <Card 
                 key={index}
                 className="w-full  mt-2 mb-10 cardsmall  bg-custom-color "
                 
@@ -376,8 +375,7 @@ function Cards() {
                       Presale Price
                     </p>
                     <p className="text:md md:text-base font-thin">
-                      {item.presaleprice}
-                    </p>
+                      {item.presaleprice}  </p>
                   </div>
                 </div>
                 <div className="flex justify-center gap-10 mt-5">
